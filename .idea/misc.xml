@@ -5,8 +5,15 @@
       <map>
         <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/activity_weather.xml" value="0.1" />
+        <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/aqi.xml" value="0.5090252707581228" />
         <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/choose_area.xml" value="0.1" />
         <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/demo.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/forecast.xml" value="0.1" />
+        <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/forecast_item.xml" value="0.5" />
+        <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/now.xml" value="0.1" />
+        <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/suggestion.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/wang.yanan15/AndroidStudioProjects/CoolWeather/app/src/main/res/layout/title.xml" value="0.1" />
         <entry key="..\:/Users/wang.yanan15/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.1" />
       </map>
     </option>
@@ -16,5 +23,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4466666666666667" />
+      </ProjectState>
+    </option>
   </component>
 </project>

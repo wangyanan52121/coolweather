@@ -111,11 +111,12 @@ public class ChooseAreaFragment extends Fragment {
                     selectedCity = cityList.get(position);
                     queryCounties();
                 } else if (currentLevel == LEVEL_COUNTY) {
+                    MainActivity.status007 = 1;
                     String weatherId = countyList.get(position).getWeatherId();
                     if (getActivity() instanceof MainActivity) {
-//                        Intent intent = new Intent(getActivity(), WeatherActivity.class);
-//                        intent.putExtra("weather_id", weatherId);
-//                        startActivity(intent);
+                        Intent intent = new Intent(getActivity(), WeatherActivity.class);
+                        intent.putExtra("weather_id", weatherId);
+                        startActivity(intent);
                         getActivity().finish();
                     }
 //                    else if (getActivity() instanceof WeatherActivity) {
@@ -251,6 +252,7 @@ public class ChooseAreaFragment extends Fragment {
                     @Override
                     public void run() {
                         closeProgressDialog();
+                        Log.d(TAG,e.toString());
                         Toast.makeText(getContext(), "加载失败", Toast.LENGTH_SHORT).show();
                     }
                 });
