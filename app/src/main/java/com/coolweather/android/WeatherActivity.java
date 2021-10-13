@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.coolweather.android.gson.Forecast;
 import com.coolweather.android.gson.Weather;
+import com.coolweather.android.service.AutoUpdateService;
 import com.coolweather.android.util.HttpUtil;
 import com.coolweather.android.util.Utility;
 
@@ -105,7 +106,7 @@ public class WeatherActivity extends AppCompatActivity {
         }
 
         if (weatherString != null) {
-            //有缓存时直接解析天气数据
+//            有缓存时直接解析天气数据
 //            Weather weather = Utility.handleWeatherResponse(weatherString);
 //            showWeatherInfo(weather);
             //无缓存时，去服务器查询天气
@@ -206,6 +207,9 @@ public class WeatherActivity extends AppCompatActivity {
         carWashText.setText(carWash);
         sportText.setText(sport);
         weatherLayout.setVisibility(View.VISIBLE);
+        //开启服务
+        Intent intent = new Intent(this, AutoUpdateService.class);
+        startService(intent);
     }
 
     /**
