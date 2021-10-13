@@ -167,6 +167,7 @@ public class WeatherActivity extends AppCompatActivity {
                 });
             }
         });
+        Log.d("WeatherActivity","执行loadBIngPic()");
         loadBingPic();
     }
 
